@@ -136,7 +136,7 @@ export default class QuizComponent extends Component{
           <button className="button previous" onClick={this.handlePrevButtonClick}>Previous</button>
           <button className="button next" onClick={this.handleNextButtonClick}>Next</button>
           <button className="button quit" onClick={this.handleQuitButtonClick}>Quit</button>
-          <Link to="/finish-quiz" state={{answeredQuestions:this.state.numberofAnsweredQuestions,score:this.state.score,correctAnswer:this.state.correctAnswers,totalQuestions:this.state.questions.length, wrongAnswer:this.state.wrongAnswers}}><button>Finish
+          <Link to="/quiz-three/finish-quiz" state={{answeredQuestions:this.state.numberofAnsweredQuestions,score:this.state.score,correctAnswer:this.state.correctAnswers,totalQuestions:this.state.questions.length, wrongAnswer:this.state.wrongAnswers}}><button>Finish
           </button>
           </Link>
         </div>

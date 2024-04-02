@@ -11,8 +11,8 @@ export default class App extends Component{
       <BrowserRouter>
       <Routes>
         <Route path="/quiz-three" element={<HomeComponent/>}></Route>
-        <Route path="/play-quiz" element={<QuizComponent/>}></Route>
-        <Route path="/finish-quiz" element={<ResultComponent/>}></Route>
+        <Route path="/quiz-three/play-quiz" element={<QuizComponent/>}></Route>
+        <Route path="/quiz-three/finish-quiz" element={<ResultComponent/>}></Route>
       </Routes>
       </BrowserRouter>
       

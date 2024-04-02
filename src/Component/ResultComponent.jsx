@@ -32,8 +32,8 @@ export default function ResultComponent(){
       </div>
 
       <div className="buttons">
-        <Link to="/play-quiz"><button className="play">Play Again</button></Link>
-        <Link to="/"><button className="home-result">Back to home</button></Link>
+        <Link to="/quiz-three/play-quiz"><button className="play">Play Again</button></Link>
+        <Link to="/quiz-three"><button className="home-result">Back to home</button></Link>
       </div>
     </div>
   )
